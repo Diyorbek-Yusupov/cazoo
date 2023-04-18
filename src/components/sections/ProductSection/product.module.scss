@@ -1,0 +1,21 @@
+.products {
+     padding: 0 7% 90px;
+}
+
+.cardsMax {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding: 30px 0;
+     justify-content: space-between;
+     @media (max-width: 1200px) {
+          display: none;
+     }
+}
+
+.cardsMin {
+     display: none;
+     @media (max-width: 1200px) {
+          display: block;
+     }
+}
