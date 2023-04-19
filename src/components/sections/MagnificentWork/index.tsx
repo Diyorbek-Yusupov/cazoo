@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import styles from "./style.module.scss";
 import { AiOutlineLike } from "react-icons/ai";
-import image from "../../../../public/media/hero2.png";
+import image1 from "../../../../public/media/magnificant.webp";
+import image2 from "../../../../public/media/magnificant2.webp";
+import image3 from "../../../../public/media/magnificant3.webp";
 import VanillaTilt from "vanilla-tilt";
 
 function MagnificentWork() {
@@ -53,10 +55,10 @@ function MagnificentWork() {
         </div>
       </div>
       <div className={styles.images}>
-        <img src={image.src} alt="" ref={ref1} />
+        <img src={image1.src} alt="" ref={ref1} />
         <div>
-          <img src={image.src} alt="" ref={ref2} />
-          <img src={image.src} alt="" ref={ref3} />
+          <img src={image2.src} alt="" ref={ref2} />
+          <img src={image3.src} alt="" ref={ref3} />
         </div>
       </div>
     </div>
